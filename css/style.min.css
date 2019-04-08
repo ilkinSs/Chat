@@ -1,0 +1,20 @@
+body{height:800px;background-image:linear-gradient(#0f0c29,#24243e)}
+#head-block{height:60px;border-radius:10px 10px 10px 10px;background-image:linear-gradient(#0f0c29,#24243e);color:#b908ff;font-weight:700;font-size:30px}
+#head-block i{padding:2px;margin-top:15px;margin-left:5px}
+#head-block p{padding:2px;margin-top:12px;margin-right:5px}
+.chatbox{overflow-y:auto;height:360px}
+.chatbox .user1{height:120px;border-bottom:1px solid #a16fbb75;background-color:#9290a500;transition:.4s}
+.chatbox .user1:hover{background-color:rgba(4,54,103,.34)}
+.chatbox .user1 img{border-radius:22%;margin:8px;margin-left:20px}
+.chatbox .user1 p{margin-top:45px;margin-left:20px;color:#e4a2d6e3;font-size:22px;font-weight:500}
+.chatbox .user2{height:115px;background-color:#9290a500;border-bottom:1px solid #a16fbb75;transition:.4s}
+.chatbox .user2:hover{background-color:rgba(4,54,103,.34)}
+.chatbox .user2 img{border-radius:23%;margin:8px;margin-right:20px;width:80px}
+.chatbox .user2 p{margin-top:45px;margin-right:20px;color:#e4a2d6e3;font-size:22px;font-weight:500}
+.inputbox{margin-top:180px;position:relative}
+.inputbox input{width:100%;border-radius:10px 10px 10px 10px;background-color:#55535300;padding:10px;color:#e4a2d6e3}
+.inputbox i{color:#ff0;position:absolute;top:15px;right:20px;font-size:20px}
+.footer{width:220px;height:50px;background-color:green;position:absolute;bottom:10px;right:10px;border-radius:10px 10px 10px 10px}
+.footer i{color:#fff;margin-top:16px;margin-left:5px}
+.footer p{color:#fff;margin-top:12px;margin-left:3px;margin-right:35px}
+.selected{background:#000!important}
